@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome  -->
+    <script
+      src="https://kit.fontawesome.com/8abb3b578d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
     <header>
-      <div class="logo">
-        <a href="#"
-          ><img src="./images/Group 40071 (2).png" alt="Logo Image"
-        /></a>
-      </div>
       <nav>
+        <div class="logo">
+          <img src="./images/Group 40071 (2).png" alt="Logo Image" />
+          <h3 class="logo-name">
+            Hero <span class="tomato-text">Travel</span>
+          </h3>
+        </div>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Packages</a></li>
@@ -23,6 +29,37 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <div class="banner">
+        <div class="overlay">
+          <h1 class="banner-title">Explore Your Travel</h1>
+          <p class="banner-description">
+            Tourism involves travel and stay, can also include day trips,
+            business trips, etc. · There is a movement of tourists from the
+            place of origin to the destination.
+          </p>
+          <div class="search-form">
+            <!-- form  -->
+            <form>
+              <input type="text" placeholder="Where Go" />
+              <select>
+                <option value="when">When</option>
+                <option value="day">Day</option>
+                <option value="night">Night</option>
+              </select>
+              <select>
+                <option value="type">Select Type</option>
+                <option value="adventure">Adventure travel</option>
+                <option value="air">Air Travel</option>
+                <option value="business">Business travel</option>
+              </select>
+              <button class="btn-primary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="submit-btn">Find Now</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- main -->
