@@ -33,6 +33,7 @@ p {
   color: #131318;
   font-size: 2.5rem;
   font-weight: 800;
+  text-transform: capitalize;
 }
 
 /* header  */
@@ -150,4 +151,43 @@ form {
 .popular-bottom-text {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* tour destination  */
+.tour-destination {
+  max-width: 1170px;
+  margin: 100px auto;
+}
+.tour-destination .section-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.tour-desc {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.row1,
+.row2,
+.row3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 10px;
+}
+.row2 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.img-parent {
+  position: relative;
+}
+.destination-title {
+  color: #fff;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
