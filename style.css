@@ -191,3 +191,48 @@ form {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* why choose us  */
+.why-choose {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+.why-choose .section-title {
+  text-align: center;
+}
+.section-desc {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.row-2 {
+  display: flex;
+  justify-content: center;
+}
+.why-choose-cards .card {
+  padding: 32px;
+  border-radius: 16px;
+}
+.why-choose-cards .card h5 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.why-choose-cards .card-1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.why-choose-cards .card-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.why-choose-cards .card-3 {
+  width: 575px;
+  margin: 30px auto;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
