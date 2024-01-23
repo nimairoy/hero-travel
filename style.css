@@ -520,7 +520,7 @@ main {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) and (min-width: 350px) {
   header,
   .popular-tour,
   .tour-destination,
