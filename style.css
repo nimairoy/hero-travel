@@ -572,7 +572,7 @@ main {
   .section-title {
     font-size: 2rem;
   }
-  .tour-btn-1 {
+  #popular-left {
     margin-bottom: 50px;
   }
 }
